@@ -36,9 +36,9 @@ define( 'W8IO_DB_DIR', __DIR__ . '/var/db/' );
 define( 'W8IO_DB_PATH', W8IO_DB_DIR . 'blockchain.sqlite3' );
 define( 'W8DB', 'sqlite:' . W8IO_DB_PATH );
 
-define( 'W8IO_NODES', 'http://127.0.0.1:6869|https://nodes.wavesexplorer.com' );
-define( 'W8IO_MATCHER', 'https://matcher.waves.exchange' );
-define( 'W8IO_NETWORK', 'W' ); // 'W' -- mainnet, 'T' -- testnet
+define( 'W8IO_NODES', 'http://seed.martexcoin.net:13839|http://seed2.martexcoin.net:13839|http://seed3.martexcoin.net:13839|https://nodes.martexcoin.net' );
+define( 'W8IO_MATCHER', 'https://nodes.martexcoin.net/matcher' );
+define( 'W8IO_NETWORK', 'M' ); // 'M' -- mainnet, 'T' -- testnet
 define( 'W8IO_ROOT', '/' );
 define( 'W8IO_MAX_UPDATE_BATCH', 1 ); // set more on when on a local node
 define( 'W8IO_UPDATE_DELAY', 1 );
